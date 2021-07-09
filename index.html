@@ -21,6 +21,7 @@
         header{
             width: 100%;
             height: 50px;
+            padding: 16px;
             border-bottom: 1px solid #999;
         }
         .page{
@@ -46,11 +47,15 @@
             min-width: 500px;
             height: 50px;
             background: #fff;
+            padding: 16px;
             border-top: 1px solid #999;
             position: fixed;
             bottom: 0;
             left: 50%;
             transform: translate(-50%, 0);
+        }
+        h2{
+            margin: 0;
         }
         @media screen and (max-width: 700px){
             aside{
@@ -63,19 +68,25 @@
 </head>
 <body>
     <div class="container">
-        <header></header>
+        <header>
+            <h2>Header</h2>
+        </header>
         <div class="page">
             <main>
+                <h2>Main content</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus diam arcu, eget tincidunt erat tempus sed. Cras ipsum felis, molestie non mollis et, elementum sit amet metus. Sed a turpis libero. Fusce suscipit lectus ex, eget facilisis nunc tempus vel. Aliquam venenatis, nibh in venenatis commodo, dolor tellus cursus elit, a varius elit nisi interdum ex. </p>
                 <p>Nunc sollicitudin porta velit non posuere. Morbi a augue ac orci pellentesque elementum. Ut nec nulla et sapien efficitur malesuada at id ex. Curabitur vulputate eros ut lorem semper accumsan. In eget tortor non diam porta convallis. </p>
             </main>
             <aside>
+                <h2>Sidebar</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus diam arcu, eget tincidunt erat tempus sed. Cras ipsum felis, molestie non mollis et, elementum sit amet metus. </p>
                 <p>Nunc sollicitudin porta velit non posuere. Morbi a augue ac orci pellentesque elementum. Ut nec nulla et sapien efficitur malesuada at id ex. Curabitur vulputate eros ut lorem semper accumsan. In eget tortor non diam porta convallis. Sed mattis, enim vel ornare mattis, dui felis feugiat erat, vitae lobortis orci nulla in nisi. </p>
                 <p>Duis euismod, purus at elementum tempor, ligula nibh porttitor orci, nec consectetur mi lorem et velit. </p>
             </aside>
         </div>
-        <footer></footer>
+        <footer>
+            <h2>Footer</h2>
+        </footer>
     </div>
 </body>
 </html>
